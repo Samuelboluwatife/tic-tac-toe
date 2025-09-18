@@ -76,7 +76,7 @@ function checkWinner(){
  
 }
 function restartGame(){
-    currentPlayer = 'X';
+    currentPlayer = 'x';
     options = ["", "", "", "", "", "", "", "", ""];
     statusText.textContent = `${currentPlayer}'s turn`;
     cells.forEach(cell => cell.textContent = "");
